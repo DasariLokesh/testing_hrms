@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Application is opened]]>
+    </line>
+    <line>
+      <![CDATA[Login is completed]]>
+    </line>
+    <line>
+      <![CDATA[Logout is done]]>
+    </line>
+    <line>
+      <![CDATA[Application is closed]]>
+    </line>
+    <line>
+      <![CDATA[Application is opened]]>
+    </line>
+    <line>
+      <![CDATA[Login is completed]]>
+    </line>
+    <line>
+      <![CDATA[Entered into frame]]>
+    </line>
+    <line>
+      <![CDATA[Exit from frame]]>
+    </line>
+    <line>
+      <![CDATA[Exit from frame]]>
+    </line>
+    <line>
+      <![CDATA[Logout is done]]>
+    </line>
+    <line>
+      <![CDATA[Application is closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-08-03T05:04:14Z" name="Suite1" finished-at="2023-08-03T05:04:29Z" duration-ms="15545">
+    <groups>
+    </groups>
+    <test started-at="2023-08-03T05:04:14Z" name="Regression1" finished-at="2023-08-03T05:04:29Z" duration-ms="15545">
+      <class name="com.hrms.testscripts.TC001_Log_in_out">
+        <test-method signature="tc001()[pri:0, instance:com.hrms.testscripts.TC001_Log_in_out@15713d56]" started-at="2023-08-03T10:34:14Z" name="tc001" finished-at="2023-08-03T10:34:21Z" duration-ms="7340" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application is opened]]>
+            </line>
+            <line>
+              <![CDATA[Login is completed]]>
+            </line>
+            <line>
+              <![CDATA[Logout is done]]>
+            </line>
+            <line>
+              <![CDATA[Application is closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc001 -->
+      </class> <!-- com.hrms.testscripts.TC001_Log_in_out -->
+      <class name="com.hrms.testscripts.TC002_AddEmp">
+        <test-method signature="tc002()[pri:0, instance:com.hrms.testscripts.TC002_AddEmp@62010f5c]" started-at="2023-08-03T10:34:21Z" name="tc002" finished-at="2023-08-03T10:34:29Z" duration-ms="8183" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application is opened]]>
+            </line>
+            <line>
+              <![CDATA[Login is completed]]>
+            </line>
+            <line>
+              <![CDATA[Entered into frame]]>
+            </line>
+            <line>
+              <![CDATA[Exit from frame]]>
+            </line>
+            <line>
+              <![CDATA[Exit from frame]]>
+            </line>
+            <line>
+              <![CDATA[Logout is done]]>
+            </line>
+            <line>
+              <![CDATA[Application is closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc002 -->
+      </class> <!-- com.hrms.testscripts.TC002_AddEmp -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
