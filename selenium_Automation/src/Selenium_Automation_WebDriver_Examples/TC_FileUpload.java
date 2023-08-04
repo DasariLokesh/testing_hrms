@@ -11,7 +11,7 @@ public class TC_FileUpload {
 		Thread.sleep(2000);
 		obj.findElement(By.xpath("//input[@name='txtUserName']")).sendKeys("nareshit");
 		Thread.sleep(3000);
-		obj.findElement(By.xpath("//input[@value='txtPassword']")).sendKeys("nareshit");
+		obj.findElement(By.xpath("//input[@name='txtPassword']")).sendKeys("nareshit");
 		Thread.sleep(1000);
 		obj.findElement(By.xpath("//input[@name='Submit']")).click();
 		Thread.sleep(3000);
@@ -20,7 +20,7 @@ public class TC_FileUpload {
 		Thread.sleep(3000);
 		obj.findElement(By.xpath("//input[@name='txtEmpFirstName']")).sendKeys("Lokesh");
 		Thread.sleep(3000);
-		obj.findElement(By.xpath("//input[@name='txtEmpLastName;]")).sendKeys("Dasari");
+		obj.findElement(By.xpath("//input[@name='txtEmpLastName']")).sendKeys("Dasari");
 		Thread.sleep(3000);
 		WebElement file = obj.findElement(By.xpath("//input[@type='file'][@name='photofile']"));
 		file.sendKeys("E:\\black-panther.jpg");
